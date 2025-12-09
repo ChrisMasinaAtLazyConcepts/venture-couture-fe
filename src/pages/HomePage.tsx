@@ -13,10 +13,10 @@ const HomePage: React.FC = () => {
       <Hero />
       <Features />
       <FeaturedProducts />
-      <CategoryShowcase />
       <Newsletter />
     </div>
   );
 };
 
 export default HomePage;
+

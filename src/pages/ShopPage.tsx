@@ -379,10 +379,10 @@ export default function ShopPage() {
     <div className="min-h-screen bg-gray-50">
       
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-red-800 via-red-700 to-red-800 text-white py-16">
+      <div className="bg-pink/90 text-white py-16">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Shop Authentic African Fashion</h1>
-          <p className="text-xl text-white/90">Discover handcrafted pieces that celebrate heritage and style</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">Shop Authentic African Fashion</h1>
+          <p className="text-xl text-red-500 ">Discover handcrafted pieces that celebrate heritage and style</p>
         </div>
       </div>
 
