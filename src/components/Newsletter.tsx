@@ -11,12 +11,12 @@ export default function Newsletter() {
   };
 
   return (
-<section className="py-16 bg-white">
+<section className="py-16 bg-gradient-to-b from-blue-50 to-white">
   <div className="container mx-auto px-4">
     <div className="max-w-3xl mx-auto text-center">
       <div className="inline-block mb-6">
-        <div className="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mx-auto border border-gray-200">
-          <Mail className="text-gray-600" size={32} />
+        <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto border-2 border-blue-200">
+          <Mail className="text-blue-600" size={32} />
         </div>
       </div>
       
@@ -35,12 +35,12 @@ export default function Newsletter() {
           onChange={(e) => setEmail(e.target.value)}
           placeholder="Enter your email address"
           required
-          className="flex-1 px-6 py-4 rounded-lg border border-gray-300 bg-gray-50 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:border-transparent transition-all"
+          className="flex-1 px-6 py-4 rounded-lg border border-blue-200 bg-white text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
         />
         
         <button
           type="submit"
-          className="bg-gray-900 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-800 transition-all duration-300 shadow-sm hover:shadow-md"
+          className="bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-all duration-300 shadow-sm hover:shadow-md"
         >
           Subscribe
         </button>

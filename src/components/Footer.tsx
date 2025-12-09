@@ -2,13 +2,13 @@ import { Facebook, Instagram, Twitter, Mail, Phone, MapPin, Shield, Truck, Credi
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-gray-900 to-black border-t border-gray-800">
+    <footer className="bg-black border-t border-gray-800">
       <div className="container mx-auto px-4 py-12">
         {/* Trust badges */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
           <div className="flex items-center gap-3 text-gray-300">
             <div className="p-2 bg-gray-800 rounded-lg">
-              <Truck className="text-red-500" size={20} />
+              <Truck className="text-gray-400" size={20} />
             </div>
             <div>
               <p className="font-bold text-sm">Free Shipping</p>
@@ -17,7 +17,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-3 text-gray-300">
             <div className="p-2 bg-gray-800 rounded-lg">
-              <Shield className="text-red-500" size={20} />
+              <Shield className="text-gray-400" size={20} />
             </div>
             <div>
               <p className="font-bold text-sm">Secure Payment</p>
@@ -26,7 +26,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-3 text-gray-300">
             <div className="p-2 bg-gray-800 rounded-lg">
-              <CreditCard className="text-red-500" size={20} />
+              <CreditCard className="text-gray-400" size={20} />
             </div>
             <div>
               <p className="font-bold text-sm">Easy Returns</p>
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center gap-3 text-gray-300">
             <div className="p-2 bg-gray-800 rounded-lg">
-              <Phone className="text-red-500" size={20} />
+              <Phone className="text-gray-400" size={20} />
             </div>
             <div>
               <p className="font-bold text-sm">24/7 Support</p>
@@ -48,21 +48,21 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="hidden sm:block">
-               	<img src="/assets/images/vc.logo.png" className="w-40 h-25" />
+               <h1 className="text-red-400 text3xl"><strong>Venture Couture Online</strong></h1>
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-6">
               Redefining African luxury fashion with contemporary designs that celebrate heritage and innovation.
             </p>
             <div className="flex gap-3">
-              <a href="#" className="p-2 bg-gray-800 hover:bg-red-600 rounded-lg transition">
-                <Facebook size={18} className="text-gray-300" />
+              <a href="#" className="p-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition group">
+                <Facebook size={18} className="text-gray-400 group-hover:text-white" />
               </a>
-              <a href="#" className="p-2 bg-gray-800 hover:bg-red-600 rounded-lg transition">
-                <Instagram size={18} className="text-gray-300" />
+              <a href="#" className="p-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition group">
+                <Instagram size={18} className="text-gray-400 group-hover:text-white" />
               </a>
-              <a href="#" className="p-2 bg-gray-800 hover:bg-red-600 rounded-lg transition">
-                <Twitter size={18} className="text-gray-300" />
+              <a href="#" className="p-2 bg-gray-800 hover:bg-gray-700 rounded-lg transition group">
+                <Twitter size={18} className="text-gray-400 group-hover:text-white" />
               </a>
             </div>
           </div>
@@ -72,7 +72,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {['Women\'s', 'Men\'s', 'Accessories', 'New Arrivals', 'Limited Edition', 'Bridal'].map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-gray-400 hover:text-red-500 transition text-sm">
+                  <a href="#" className="text-gray-400 hover:text-white transition text-sm">
                     {item}
                   </a>
                 </li>
@@ -85,7 +85,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {['Contact Us', 'Shipping Info', 'Returns & Exchanges', 'Size Guide', 'FAQ', 'Privacy Policy'].map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-gray-400 hover:text-red-500 transition text-sm">
+                  <a href="#" className="text-gray-400 hover:text-white transition text-sm">
                     {item}
                   </a>
                 </li>
@@ -97,15 +97,15 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4 text-white">Contact</h4>
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-gray-400">
-                <MapPin size={16} className="mt-1 flex-shrink-0 text-red-500" />
+                <MapPin size={16} className="mt-1 flex-shrink-0 text-gray-400" />
                 <span className="text-sm">123 Commerce Street, Johannesburg, South Africa</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
-                <Phone size={16} className="flex-shrink-0 text-red-500" />
+                <Phone size={16} className="flex-shrink-0 text-gray-400" />
                 <span className="text-sm">+27 11 123 4567</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
-                <Mail size={16} className="flex-shrink-0 text-red-500" />
+                <Mail size={16} className="flex-shrink-0 text-gray-400" />
                 <span className="text-sm">hello@venturecouture.com</span>
               </li>
             </ul>
@@ -118,17 +118,17 @@ export default function Footer() {
               © 2025 Venture Couture. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
-              <div className="text-gray-400 text-sm">
-            Designed by{' '}
-            <a 
-              href="https://next-group.co.za" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-300 transition-colors duration-300 font-medium"
-            >
-            Next Group 
-            </a>
-          </div>
+              <div className="text-gray-500 text-sm">
+                Designed by{' '}
+                <a 
+                  href="https://next-group.co.za" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 font-medium"
+                >
+                  Next Group 
+                </a>
+              </div>
               <div className="flex gap-4 text-xs text-gray-500">
                 <a href="#" className="hover:text-gray-300">Terms</a>
                 <span>•</span>

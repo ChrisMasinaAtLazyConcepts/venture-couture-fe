@@ -5,7 +5,6 @@ export default function Hero() {
     <section className="relative h-[600px] lg:h-[700px] overflow-hidden">
       
       <div className="absolute inset-0">
-       
         <img
           src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="African Fashion"
@@ -17,16 +16,13 @@ export default function Hero() {
       <div className="relative container mx-auto px-4 h-full flex items-center">
         <div className="max-w-2xl text-white">
           <div className="inline-block mb-4">
-            {/* <span className="bg-gradient-to-r from-orange-500 via-red-500 to-amber-500 text-white px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider">
-              New Collection 2025
-            </span> */}
-             <span className="bg-black text-white px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider">
+            <span className="bg-red-600 text-white px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wider">
               New Collection 2025
             </span>
           </div>
           <h1 className="text-5xl lg:text-7xl font-bold mb-6 leading-tight">
             Embrace Summer 25
-            <span className="block bg-gradient-to-r from-orange-400 via-red-400 to-amber-400 bg-clip-text text-transparent">
+            <span className="block text-gray-300">
               African Heritage
             </span>
           </h1>
@@ -36,7 +32,7 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="/shop"
-              className="group bg-[#B84037]  hover:from-orange-700 hover:via-red-700 hover:to-amber-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center gap-2"
+              className="group bg-black hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 shadow-xl hover:shadow-2xl flex items-center justify-center gap-2"
             >
               Shop Collection
               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
