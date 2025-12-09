@@ -380,10 +380,14 @@ export default function ShopPage() {
       
       {/* Hero Section */}
       <div className="bg-pink/90 text-white py-16">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">Shop Authentic African Fashion</h1>
-          <p className="text-xl text-red-500 ">Discover handcrafted pieces that celebrate heritage and style</p>
-        </div>
+      <div className="container mx-auto px-4 text-center">
+  <h1 className="text-4xl md:text-5xl font-bold mb-4 text-black">
+    Shop Authentic African Fashion
+  </h1>
+  <p className="text-xl text-red-500">
+    Discover handcrafted pieces that celebrate heritage and style
+  </p>
+</div>
       </div>
 
       {/* Main Content */}

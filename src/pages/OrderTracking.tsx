@@ -35,7 +35,7 @@ export default function OrderTracking() {
   return (
     <div className="min-h-screen bg-gray-50">
 
-      <div className="bg-[#B84037]  text-white py-16">
+      <div className=" text-black py-16">
         <div className="container mx-auto px-4 text-center">
           <Package size={48} className="mx-auto mb-4" />
           <h1 className="text-5xl font-bold mb-4">Track Your Order</h1>
