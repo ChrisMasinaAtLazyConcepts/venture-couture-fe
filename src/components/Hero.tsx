@@ -5,14 +5,7 @@ export default function Hero() {
     <section className="relative h-[600px] lg:h-[700px] overflow-hidden">
       
       <div className="absolute inset-0">
-        <span className="inline-flex items-right gap-2">
-            <img
-              src='./assets/images/sa_logo.jpg'
-              alt="South African Flag"
-              className="w-6 h-4 inline-block"
-            />
-            Proudly South African | Free Shipping on Orders Over R1000
-          </span>
+       
         <img
           src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt="African Fashion"

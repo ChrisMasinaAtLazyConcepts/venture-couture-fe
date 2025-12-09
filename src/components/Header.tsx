@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header className="bg-gradient-to-r from-gray-900 via-black to-gray-900 border-b border-gray-800 sticky top-0 z-50 shadow-xl">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 pt-3">
      
 
         {/* Main header */}
