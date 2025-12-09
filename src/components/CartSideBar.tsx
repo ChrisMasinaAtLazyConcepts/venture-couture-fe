@@ -19,6 +19,7 @@ const CartSidebar: React.FC = () => {
   };
 
   if (!state.isOpen) return null;
+  
 
   return (
     <AnimatePresence>
