@@ -9,7 +9,6 @@ import AdminDashboard from './pages/AdminDashboard';
 import HomePage from './pages/HomePage';
 import ProductSearch from './pages/ProductSearch';
 import Sale from './pages/Sale';
-import CartSidebar from './components/CartSidebar';
 import CheckoutModal from './components/CheckoutModal';
 import { CartProvider } from './contexts/CartContext'; // Make sure this path is correct
 import CartFooter from './components/CartFooter';
@@ -31,7 +30,6 @@ function AppContent() {
         </Routes>
       </main>
       <Footer />
-      <CartSidebar />
       <CheckoutModal />
     </div>
   );
